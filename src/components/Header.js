@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 import "../styles/Header.css";
 
 const Header = () => {
@@ -27,13 +28,24 @@ const Header = () => {
       <nav>
         <ul className={`nav ${scrolled ? "nav-scrolled" : ""}`}>
           <li>
-            <a href="#about">ABOUT</a>
+            <Link to="about" smooth={true} duration={500}>
+              ABOUT
+            </Link>
           </li>
           <li>
-            <a href="#projects">PROJECTS</a>
+            <Link to="skills" smooth={true} duration={500}>
+              SKILLS
+            </Link>
           </li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <Link to="projects" smooth={true} duration={500}>
+              PROJECTS
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              CONTACT
+            </Link>
           </li>
         </ul>
       </nav>
