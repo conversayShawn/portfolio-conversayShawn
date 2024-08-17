@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; {new Date().getFullYear()} Shawn Harris</p>
+        <p>&copy; {new Date().getFullYear()}</p>
         <div className="social-links">
           <a href="https://github.com/conversayShawn" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="GitHub" className="social-icon" />
