@@ -21,7 +21,9 @@ const Header = () => {
 
   return (
     <header className={`header ${scrolled ? "header-scrolled" : ""}`}>
-      <h1 className={`logo ${scrolled ? "logo-scrolled" : ""}`}>Shawn Harris</h1>
+      <h1 className={`logo ${scrolled ? "logo-scrolled" : ""}`}>
+        Shawn Harris
+      </h1>
       <nav>
         <ul className={`nav ${scrolled ? "nav-scrolled" : ""}`}>
           <li>
