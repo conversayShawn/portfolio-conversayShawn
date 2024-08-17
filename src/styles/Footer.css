@@ -1,44 +1,33 @@
 .footer {
-    background-color: transparent;
-    padding: 20px 40px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-  }
-  
-  .footer-content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .social-links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .social-icon {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-  }
-  
-  body {
-    background-color: white; /* Ensure the app background is white */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    min-height: 100vh; /* Ensure the body takes up the full viewport height */
-    display: flex;
-    flex-direction: column;
-  }
-  
-  footer {
-    position: relative;
-    bottom: 0;
-  }
-  
+  background-color: transparent;
+  padding: 20px 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
